@@ -1,0 +1,23 @@
+{
+  "name": "guestmedia_next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "next": "10.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-particles-js": "^3.4.1",
+    "react-spring": "^8.0.27",
+    "react-visibility-sensor": "^5.1.1"
+  },
+  "devDependencies": {
+    "sass": "^1.30.0"
+  }
+}
