@@ -23,7 +23,7 @@ export default function Hero() {
         /> */}
         <img
           style={{ width: '100%' }}
-          src="/images/logo.png"
+          src="/Images/logo.png"
           alt="Guest Media Logo"
         />
       </animated.div>
