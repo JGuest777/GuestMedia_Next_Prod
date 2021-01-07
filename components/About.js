@@ -67,7 +67,7 @@ export default function About() {
         </Grid>
         <Grid item xs={12} md={6}>
           <p className="aboutBlack-content">
-            Phasellus iaculis ex ligula. Nulla facilisi. Praesent enim nulla,
+            Phasellus iaculis ex aligula. Nulla facilisi. Praesent enim nulla,
             tincidunt ac metus id, consequat sodales dui. Ut vel velit
             vestibulum, auctor nibh at, commodo dui. Sed egestas enim nec velit
             feugiat, at venenatis erat porttitor. Nullam ornare, ligula sed
