@@ -30,7 +30,7 @@ export default function About() {
           }}
         >
           <Image
-            src="/images/ktm.jpg"
+            src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
             alt="Guest Media Logo"
             width={486}
             height={324}
