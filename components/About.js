@@ -1,7 +1,6 @@
-// import Porsche from '../../Assets/Images/Porsche.jpg';
-// import KTM from '../../Assets/Images/KTM.jpg';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -30,8 +29,12 @@ export default function About() {
             justifyContent: 'center',
           }}
         >
-          {/* <img className="aboutBlack-img" src={Porsche} alt="logo" /> */}
-          ImageOne
+          <Image
+            src="/images/ktm.jpg"
+            alt="Guest Media Logo"
+            width={486}
+            height={324}
+          />
         </Grid>
       </Grid>
       <Grid container spacing={3} className="aboutBlack-container">
@@ -45,8 +48,12 @@ export default function About() {
             justifyContent: 'center',
           }}
         >
-          {/* <img className="aboutBlack-img" src={KTM} alt="logo" /> */}
-          ImageTwo
+          <Image
+            src="/images/porsche.jpg"
+            alt="Guest Media Logo"
+            width={576}
+            height={324}
+          />
         </Grid>
         <Grid item xs={12} md={6}>
           <p className="aboutBlack-content">
