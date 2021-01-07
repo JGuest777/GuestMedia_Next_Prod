@@ -1,7 +1,9 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 // import Image from 'next/image';
-const imgSrc = require('./Images/logo.png?resize&size=100?webp');
+
+// !NOTE: next/image <Image /> component doesn't work on deploy to Vercel.
+// Thus switched to standard <img /> tag.
 
 export default function Hero() {
   const logoSpring = useSpring({
@@ -19,7 +21,11 @@ export default function Hero() {
           width="1720px"
           height="538"
         /> */}
-        <img src={imgSrc.src} alt="Guest Media Logo" />
+        <img
+          style={{ width: '100%' }}
+          src="/images/logo.png"
+          alt="Guest Media Logo"
+        />
       </animated.div>
       <h1 className="tagLine">technically creative.</h1>
     </div>
