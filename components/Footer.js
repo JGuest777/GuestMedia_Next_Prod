@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 // Overrides Nextjs 'Link'
 import Link from '../components/LinkWrap';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,11 +38,16 @@ export default function Footer() {
           <Typography variant="body2" color="textSecondary" component="div">
             {'Copyright © '}
             <Link href="/" color="inherit">
-              <Image
+              {/* <Image
                 src="/images/logo.png"
                 alt="logo"
                 width={75}
                 height={25}
+                className="footerLogo"
+              /> */}
+              <img
+                src="/images/logo.png"
+                alt="Guest Media Logo"
                 className="footerLogo"
               />
             </Link>{' '}

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import Grid from '@material-ui/core/Grid';
 import { useSpring, animated } from 'react-spring';
 
@@ -19,11 +19,16 @@ export default function Why() {
           <animated.div className="why-header" style={whySpring}>
             <p className="why-header_text">Why</p>
             <div className="why-header_img">
-              <Image
+              {/* <Image
                 src="/images/mediaLogoBlack.png"
                 width={771}
                 height={97}
                 alt="custom media logo"
+              /> */}
+              <img
+                style={{ width: '100%' }}
+                src="/images/mediaLogoBlack.png"
+                alt="custom Media Logo"
               />
             </div>
             <p className="why-header_text">?</p>
@@ -44,11 +49,16 @@ export default function Why() {
           <animated.div className="why-header" style={whySpring}>
             <p className="why-header_text">Why</p>
             <div className="why-header_img">
-              <Image
+              {/* <Image
                 src="/images/logoBlack.png"
                 width={1720}
                 height={538}
                 alt="Small Guest Media Logo"
+              /> */}
+              <img
+                style={{ width: '100%' }}
+                src="/images/logoBlack.png"
+                alt="small Guest Media Logo"
               />
             </div>
             <p className="why-header_text">?</p>
