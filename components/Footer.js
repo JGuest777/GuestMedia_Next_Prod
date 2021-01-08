@@ -45,10 +45,11 @@ export default function Footer() {
                 height={25}
                 className="footerLogo"
               /> */}
+
               <img
-                src="/images/logo.png"
-                alt="Guest Media Logo"
                 className="footerLogo"
+                src={require('../images/logo.png?webp')}
+                alt="custom Media Logo"
               />
             </Link>{' '}
             {new Date().getFullYear()}

@@ -27,7 +27,7 @@ export default function Why() {
               /> */}
               <img
                 style={{ width: '100%' }}
-                src="/images/mediaLogoBlack.png"
+                src={require('../images/mediaLogoBlack.png?webp')}
                 alt="custom Media Logo"
               />
             </div>
@@ -57,7 +57,7 @@ export default function Why() {
               /> */}
               <img
                 style={{ width: '100%' }}
-                src="/images/logoBlack.png"
+                src={require('../images/logoBlack.png?webp')}
                 alt="small Guest Media Logo"
               />
             </div>
