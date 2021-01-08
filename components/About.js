@@ -1,6 +1,5 @@
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-// import Image from 'next/image';
 
 export default function About() {
   return (
@@ -29,16 +28,10 @@ export default function About() {
             justifyContent: 'center',
           }}
         >
-          {/* <Image
-            src="/images/ktm.jpg"
-            alt="Guest Media Logo"
-            width={486}
-            height={324}
-          /> */}
           <img
             style={{ width: '100%' }}
-            src="/images/ktm.jpg"
-            alt="ktm placeholder img"
+            src={require('../images/porsche.jpg?webp')}
+            alt="porsche placeholder img"
           />
         </Grid>
       </Grid>
@@ -53,16 +46,10 @@ export default function About() {
             justifyContent: 'center',
           }}
         >
-          {/* <Image
-            src="/images/porsche.jpg"
-            alt="Guest Media Logo"
-            width={576}
-            height={324}
-          /> */}
           <img
             style={{ width: '100%' }}
-            src="/images/porsche.jpg"
-            alt="porsche placeholder img"
+            src={require('../images/ktm.jpg?webp')}
+            alt="ktm placeholder img"
           />
         </Grid>
         <Grid item xs={12} md={6}>

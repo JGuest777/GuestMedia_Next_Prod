@@ -26,7 +26,7 @@ export default function Cards() {
                     <CardActionArea>
                       <CardMedia
                         className="cardImg"
-                        image="/images/webImg.jpg"
+                        image={require('../images/webImg.jpg?webp')}
                         title="Web Design"
                       />
                       <CardContent>
@@ -66,7 +66,7 @@ export default function Cards() {
                     <CardActionArea>
                       <CardMedia
                         className="cardImg"
-                        image="/images/videoImg.png"
+                        image={require('../images/videoImg.png?webp')}
                         title="Videography"
                       />
                       <CardContent>
