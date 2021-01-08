@@ -13,11 +13,13 @@ export default function Hero() {
   return (
     <div className="hero">
       <animated.div style={logoSpring}>
-        <img
-          src={require('../images/logo.png?webp')}
-          style={{ width: '100%' }}
-          alt="Guest Media Logo"
-        />
+        <div className="hero_img">
+          <img
+            src={require('../images/logo.png?webp')}
+            style={{ width: '100%' }}
+            alt="Guest Media Logo"
+          />
+        </div>
       </animated.div>
       <h1 className="tagLine">technically creative.</h1>
     </div>

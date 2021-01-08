@@ -29,7 +29,7 @@ export default function About() {
           }}
         >
           <img
-            style={{ width: '100%' }}
+            className="aboutImgs"
             src={require('../images/porsche.jpg?webp')}
             alt="porsche placeholder img"
           />
@@ -46,11 +46,13 @@ export default function About() {
             justifyContent: 'center',
           }}
         >
-          <img
-            style={{ width: '100%' }}
-            src={require('../images/ktm.jpg?webp')}
-            alt="ktm placeholder img"
-          />
+          <div className="aboutImgs-container">
+            <img
+              className="aboutImgs"
+              src={require('../images/ktm.jpg?webp')}
+              alt="ktm placeholder img"
+            />
+          </div>
         </Grid>
         <Grid item xs={12} md={6}>
           <p className="aboutBlack-content">

@@ -13,10 +13,13 @@ $font-primary: 'Roboto', sans-serif;
   background-color: rgba(0, 0, 0, 0.4);
   margin-top: 75px;
   margin-bottom: 20px;
-  height: 80%;
+  height: 75vh;
   width: auto;
 }
 
+.hero_img {
+  height: 100%;
+}
 // .whyLogo {
 //   width: 200px;
 //   height: 200px;
@@ -85,8 +88,14 @@ $font-primary: 'Roboto', sans-serif;
   font-size: 20px;
 }
 
-.aboutBlack-img {
-  max-width: 500px;
+.aboutImgs-container {
+  min-height: 100%;
+  width: 100%;
+}
+
+.aboutImgs {
+  width: 100%;
+  object-fit: cover;
 }
 
 .footer-container {
