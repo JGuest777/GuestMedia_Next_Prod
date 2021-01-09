@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { useTheme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/core/styles';
 // Overrides Nextjs 'Link'
-import Link from '../components/LinkWrap';
+import Link from '../components/Utils/LinkWrap';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -27,7 +27,7 @@ import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
-import { useHeaderStyles } from '../styles/HeaderStyles';
+import { useHeaderStyles } from '../styles/Header';
 
 const useMenuStyles = makeStyles((theme) => ({
   root: {

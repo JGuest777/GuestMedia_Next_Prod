@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import dynamic from 'next/dynamic';
 
-const ParticleBg = dynamic(() => import('../components/ParticleBg'), {
+const ParticleBg = dynamic(() => import('../components/Utils/ParticleBg'), {
   ssr: false,
 });
 

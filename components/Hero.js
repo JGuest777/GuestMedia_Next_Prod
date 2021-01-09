@@ -11,17 +11,11 @@ export default function Hero() {
   });
 
   return (
-    <div className="hero">
+    <div className="hero-container">
       <animated.div style={logoSpring}>
-        <div className="hero_img">
-          <img
-            src={require('../images/logo.png?webp')}
-            style={{ width: '100%' }}
-            alt="Guest Media Logo"
-          />
-        </div>
+        <img src={require('../images/logo.png?webp')} alt="Guest Media Logo" />
       </animated.div>
-      <h1 className="tagLine">technically creative.</h1>
+      <h1>technically creative.</h1>
     </div>
   );
 }

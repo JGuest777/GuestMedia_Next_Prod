@@ -3,7 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 const drawerWidth = 240;
 
 export const useHeaderStyles = makeStyles((theme) => ({
-  root: {},
+  root: {
+    marginBottom: 75,
+  },
   appBar: {
     backgroundColor: 'transparent',
     boxShadow: 'none',

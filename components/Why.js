@@ -12,21 +12,20 @@ export default function Why() {
   });
 
   return (
-    <div className="why">
+    <div className="why-container">
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
           <animated.div className="why-header" style={whySpring}>
-            <p className="why-header_text">Why</p>
-            <div className="why-header_img">
+            <p>Why</p>
+            <div className="why-img_container">
               <img
-                style={{ width: '100%' }}
                 src={require('../images/mediaLogoBlack.png?webp')}
                 alt="custom Media Logo"
               />
             </div>
-            <p className="why-header_text">?</p>
+            <p>?</p>
           </animated.div>
-          <p className="why-content">
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             convallis ligula pulvinar mauris lacinia, dapibus convallis velit
             cursus. Pellentesque egestas hendrerit suscipit. Cras ultricies in
@@ -40,17 +39,16 @@ export default function Why() {
         </Grid>
         <Grid item xs={12} md={6}>
           <animated.div className="why-header" style={whySpring}>
-            <p className="why-header_text">Why</p>
-            <div className="why-header_img">
+            <p>Why</p>
+            <div className="why-img_container">
               <img
-                style={{ width: '100%' }}
                 src={require('../images/logoBlack.png?webp')}
                 alt="small Guest Media Logo"
               />
             </div>
-            <p className="why-header_text">?</p>
+            <p>?</p>
           </animated.div>
-          <p className="why-content">
+          <p>
             Phasellus iaculis ex ligula. Nulla facilisi. Praesent enim nulla,
             tincidunt ac metus id, consequat sodales dui. Ut vel velit
             vestibulum, auctor nibh at, commodo dui. Sed egestas enim nec velit

@@ -3,10 +3,10 @@ import Container from '@material-ui/core/Container';
 
 export default function About() {
   return (
-    <Container maxWidth="xl" style={{ marginTop: '75px' }}>
-      <Grid container spacing={3} className="aboutBlack-container">
+    <Container maxWidth="xl">
+      <Grid container spacing={2} className="about-container">
         <Grid item xs={12} md={6}>
-          <p className="aboutBlack-content">
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             convallis ligula pulvinar mauris lacinia, dapibus convallis velit
             cursus. Pellentesque egestas hendrerit suscipit. Cras ultricies in
@@ -18,44 +18,22 @@ export default function About() {
             augue maximus urna placerat commodo. Fusce nec nulla ex.
           </p>
         </Grid>
-        <Grid
-          item
-          xs={12}
-          md={6}
-          style={{
-            backgroundColor: 'orangeRed',
-            display: 'flex',
-            justifyContent: 'center',
-          }}
-        >
+        <Grid item xs={12} md={6} className="about-img_container orange">
           <img
-            className="aboutImgs"
             src={require('../images/porsche.jpg?webp')}
-            alt="porsche placeholder img"
+            alt="Porsche placeholder img"
           />
         </Grid>
       </Grid>
-      <Grid container spacing={3} className="aboutBlack-container">
-        <Grid
-          item
-          xs={12}
-          md={6}
-          style={{
-            backgroundColor: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-          }}
-        >
-          <div className="aboutImgs-container">
-            <img
-              className="aboutImgs"
-              src={require('../images/ktm.jpg?webp')}
-              alt="ktm placeholder img"
-            />
-          </div>
+      <Grid container spacing={2} className="about-container">
+        <Grid item xs={12} md={6} className="about-img_container black">
+          <img
+            src={require('../images/ktm.jpg?webp')}
+            alt="ktm placeholder img"
+          />
         </Grid>
         <Grid item xs={12} md={6}>
-          <p className="aboutBlack-content">
+          <p>
             Phasellus iaculis ex aligula. Nulla facilisi. Praesent enim nulla,
             tincidunt ac metus id, consequat sodales dui. Ut vel velit
             vestibulum, auctor nibh at, commodo dui. Sed egestas enim nec velit
