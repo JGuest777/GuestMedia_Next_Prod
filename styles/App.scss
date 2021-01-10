@@ -118,3 +118,30 @@ $font-primary: 'Roboto', sans-serif;
     display: none !important;
   }
 }
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    object-position: center;
+  }
+  .source {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .loaded {
+    opacity: 1;
+  }
+}
+
+.test-img {
+  width: 100%;
+}

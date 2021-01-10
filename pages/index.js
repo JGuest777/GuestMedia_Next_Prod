@@ -16,15 +16,23 @@ import Cards from '../components/Cards';
 // ?IDEA: Add light/dark toggle
 // ?IDEA: Implement a frosted-glass effect ex: (Nav, Footer, Drawer, About, Hero)?
 
-export default function Home() {
+export async function getStaticProps() {
+  const src = require('../images/logo.png?webp');
+  return {
+    props: {
+      src,
+    },
+  };
+}
+
+export default function Home({ src }) {
   return (
     <>
       <Head>
         <title>Guest Media | Software Development & Videography</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Hero />
+      <Hero src={src} />
       <Why />
       <Cards />
     </>
