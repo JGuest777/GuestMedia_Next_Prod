@@ -10,7 +10,6 @@ export default function LazyImg({
 }) {
   const [loaded, setLoaded] = useState(false);
   const imgRef = useRef();
-  console.log(src, lqip, aspectRatio);
   useEffect(() => {
     if (imgRef.current && imgRef.current.complete) {
       setLoaded(true);
