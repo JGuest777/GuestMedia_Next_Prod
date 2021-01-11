@@ -1,10 +1,16 @@
 import { useState, useEffect, useRef } from 'react';
 import clsx from 'clsx';
 
-export default function Image({ className, src, alt, aspectRatio = 16 / 9 }) {
+export default function LazyImg({
+  className,
+  src,
+  lqip,
+  alt,
+  aspectRatio = 2 / 3,
+}) {
   const [loaded, setLoaded] = useState(false);
   const imgRef = useRef();
-
+  console.log(src, lqip, aspectRatio);
   useEffect(() => {
     if (imgRef.current && imgRef.current.complete) {
       setLoaded(true);
@@ -14,7 +20,7 @@ export default function Image({ className, src, alt, aspectRatio = 16 / 9 }) {
   return (
     <div className={clsx('wrapper', className)}>
       <div style={{ paddingBottom: `${100 / aspectRatio}%` }} />
-      <img src={`${src}?lqip`} aria-hidden="true" />
+      <img src={lqip} aria-hidden="true" />
       <img
         loading="lazy"
         src={src}

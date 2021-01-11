@@ -1,7 +1,7 @@
 import Grid from '@material-ui/core/Grid';
 import { useSpring, animated } from 'react-spring';
 
-export default function Why() {
+export default function Why({ webImage }) {
   const whySpring = useSpring({
     opacity: 1,
     transform: 'translate3d(0, 0, 0)',

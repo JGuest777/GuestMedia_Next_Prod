@@ -17,7 +17,7 @@ $font-primary: 'Roboto', sans-serif;
   background-color: rgba(0, 0, 0, 0.4);
   margin-bottom: 20px;
   height: 75vh;
-  width: auto;
+  width: 100%;
   h1 {
     font-size: 20px;
     font-family: $font-primary;
@@ -118,7 +118,7 @@ $font-primary: 'Roboto', sans-serif;
     display: none !important;
   }
 }
-
+// Lazy Images:
 .wrapper {
   position: relative;
   overflow: hidden;
