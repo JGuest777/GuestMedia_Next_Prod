@@ -1,3 +1,15 @@
+<!-- TODO: Make img component -->
+<!-- TODO: Configure blur img placeholder -->
+<!-- TODO: Add Services links to Nav Drawer -->
+<!-- TODO: Refactor CSS -->
+<!-- TODO: Finish about page layout -->
+<!-- TODO: Start Services page(s) layout -->
+<!-- TODO: Start Contact page layout -->
+<!-- TODO: Add social icons -->
+<!-- TODO: Add testimonial banner (HomePage) -->
+<!-- ?IDEA: Build a blog/vlog -->
+<!-- ?IDEA: Add light/dark toggle -->
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
